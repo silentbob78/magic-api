@@ -8,7 +8,10 @@ gem 'rails-api'
 gem 'spring', :group => :development
 
 
-gem 'sqlite3'
+gem 'elasticsearch'
+gem 'elasticsearch-rails'
+gem 'elasticsearch-persistence', require: 'elasticsearch/persistence/model'
+gem 'elasticsearch-model'
 
 
 
